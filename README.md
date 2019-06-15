@@ -33,7 +33,7 @@ export default class Foo {
 }
 ```
 
-# File path
+## Specify destination file path
 
 You can specify the path of the destination file like this:
 
@@ -49,3 +49,11 @@ This will create the following file tree
     |_ to
        |_ foo.js
 ```
+
+## Languaje
+
+[WIP]
+
+## Custom templates
+
+[WIP]
