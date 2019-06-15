@@ -1,0 +1,23 @@
+{
+  "name": "@paaragon/ctg-cli",
+  "version": "1.0.0",
+  "description": "Custom Template Generator CLI allows you to create your own code templates",
+  "main": "src/index.js",
+  "bin": {
+    "@paaragon/create-project": "bin/ctg-cli",
+    "ctg-cli": "bin/ctg-cli"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^4.1.0",
+    "esm": "^3.2.25",
+    "vash": "^0.12.6"
+  }
+}
