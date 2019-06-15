@@ -52,20 +52,7 @@ This will create the following file tree
 
 ## Languaje
 
-By default `ctg-cli` writes JavaScript files but you can change this by passing `--lang` or `-l` argument:
-
- ```bash
- $ ctg-cli -t class -l ts foo
- ```
- 
- This will create the following file tree
-
-```
-/-
- |_ path
-    |_ to
-       |_ foo.ts
-```
+[WIP]
 
 ## Custom templates
 
