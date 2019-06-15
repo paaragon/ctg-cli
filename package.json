@@ -1,6 +1,6 @@
 {
   "name": "@paaragon/ctg-cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Custom Template Generator CLI allows you to create your own code templates",
   "main": "src/index.js",
   "bin": {
@@ -19,5 +19,10 @@
     "arg": "^4.1.0",
     "esm": "^3.2.25",
     "vash": "^0.12.6"
-  }
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ]
 }

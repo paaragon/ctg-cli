@@ -1,10 +1,7 @@
 import fs from 'fs';
+import path from 'path';
 import os from 'os';
 import vash from 'vash';
-
-export function findTemplate(tplName) {
-
-}
 
 export async function renderTemplate(tplName, params) {
 
@@ -36,6 +33,6 @@ export async function renderTemplate(tplName, params) {
 }
 
 async function getTplContent(tplName) {
-    const tplPath = `templates/${tplName}.vash`;
+    const tplPath = path.join(__dirname, '..', 'templates', `${tplName}.vash`);
     return fs.readFileSync(tplPath, 'utf8');
 }
