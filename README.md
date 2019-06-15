@@ -69,3 +69,13 @@ By default, ctg-cli assumes that files are JavaScript files. You can change this
 #!your-extension
 // your template
 ```
+
+For example
+
+```
+#!ts
+export default class @(model.name.charAt(0).toUpperCase() + model.name.slice(1)) {
+
+    constructor() { }
+}
+```
