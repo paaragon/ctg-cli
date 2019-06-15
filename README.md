@@ -50,10 +50,22 @@ This will create the following file tree
        |_ foo.js
 ```
 
-## Languaje
+# Template
 
-[WIP]
+Default templates are stored in `templates` folder. To use them, you have to specify the template name when invoking ctg-cli. Available templates are:
+
+- class
+- class-ts
 
 ## Custom templates
 
 [WIP]
+
+## Templates languaje
+
+By default, ctg-cli assumes that files are JavaScript files. You can change this in your custom template by adding a first line with the extension of the file like this:
+
+```
+#!your-extension
+// your template
+```
