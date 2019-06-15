@@ -11,7 +11,6 @@ export default async function buildTemplate(options) {
 
     const template = options.template;
     const name = options.name;
-    const lang = options.lang;
 
     const pathAndName = buildFilePath(name);
     if (!pathAndName) {
@@ -26,7 +25,10 @@ export default async function buildTemplate(options) {
         name: fileName
     };
 
-    const out = await renderTemplate(template, tplParams, lang);
+    const {
+        lang,
+        out
+    } = await renderTemplate(template, tplParams);
 
     if (pathName) {
         await createFolders(pathName);

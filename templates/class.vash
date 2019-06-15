@@ -1,0 +1,5 @@
+#!js
+export default class @(model.name.charAt(0).toUpperCase() + model.name.slice(1)) {
+
+    constructor() { }
+}
