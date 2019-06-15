@@ -33,7 +33,7 @@ export default class Foo {
 }
 ```
 
-# File path
+## Specify destination file path
 
 You can specify the path of the destination file like this:
 
@@ -49,3 +49,24 @@ This will create the following file tree
     |_ to
        |_ foo.js
 ```
+
+## Languaje
+
+By default `ctg-cli` writes JavaScript files but you can change this by passing `--lang` or `-l` argument:
+
+ ```bash
+ $ ctg-cli -t class -l ts foo
+ ```
+ 
+ This will create the following file tree
+
+```
+/-
+ |_ path
+    |_ to
+       |_ foo.ts
+```
+
+## Custom templates
+
+[WIP]
